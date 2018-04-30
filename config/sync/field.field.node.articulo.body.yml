@@ -1,0 +1,22 @@
+uuid: a36fa6b2-896b-475f-b836-5bae09fb3f39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.articulo
+  module:
+    - text
+id: node.articulo.body
+field_name: body
+entity_type: node
+bundle: articulo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

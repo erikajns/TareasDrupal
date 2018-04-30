@@ -1,0 +1,22 @@
+uuid: 63676d39-9a42-4801-a926-43164e9354cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.autor
+  module:
+    - text
+id: node.autor.body
+field_name: body
+entity_type: node
+bundle: autor
+label: Autor
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

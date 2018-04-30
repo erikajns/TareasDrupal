@@ -1,0 +1,24 @@
+uuid: c4bf4008-0ace-4fa9-8760-2e995b98362b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.pelicula_recientes
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__pelicula_recientes_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:pelicula_recientes-block_1'
+settings:
+  id: 'views_block:pelicula_recientes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

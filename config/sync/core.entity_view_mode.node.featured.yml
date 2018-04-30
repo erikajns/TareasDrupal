@@ -1,0 +1,10 @@
+uuid: fda44475-1caa-4aa4-a609-3fc58ba2c1b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.featured
+label: Featured
+targetEntityType: node
+cache: true

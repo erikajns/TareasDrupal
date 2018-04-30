@@ -1,0 +1,22 @@
+uuid: 9f38e6db-f24b-4580-8e9d-196eb54e14eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pelicula
+label: pelicula
+type: 'canonical_entities:node'
+pattern: '[node:field_peliculas]/[node:title]'
+selection_criteria:
+  c55d2a7f-f7b2-4382-8a1d-56f35237c35e:
+    id: node_type
+    bundles:
+      peliculas: peliculas
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c55d2a7f-f7b2-4382-8a1d-56f35237c35e
+selection_logic: and
+weight: -9
+relationships: {  }

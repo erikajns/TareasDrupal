@@ -1,0 +1,14 @@
+uuid: 17cc177b-ce27-4c20-980f-ce0aeeedc03e
+langcode: en
+status: true
+dependencies: {  }
+name: miniatura
+label: miniatura
+effects:
+  fbf116ac-5a61-493a-8844-c67b631a7d10:
+    uuid: fbf116ac-5a61-493a-8844-c67b631a7d10
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 200

@@ -1,0 +1,15 @@
+uuid: 74550218-6726-4dce-ba81-470a571a85c9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Basic HTML'
+format: basic_html
+weight: 0
+filters:
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72

@@ -1,0 +1,21 @@
+uuid: 9a038632-4d33-4b61-8110-005bfa4fbc94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edad
+    - node.type.autor
+  module:
+    - datetime
+id: node.autor.field_edad
+field_name: field_edad
+entity_type: node
+bundle: autor
+label: Edad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

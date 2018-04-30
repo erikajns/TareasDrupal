@@ -1,0 +1,11 @@
+uuid: c8fd984e-c806-4e9f-baf5-06c880138835
+langcode: en
+status: true
+dependencies: {  }
+name: Actor
+type: autor
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

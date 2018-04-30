@@ -1,0 +1,20 @@
+uuid: 9f6490d9-707f-4eff-a95d-852cc442f933
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_nacionalidad
+field_name: field_nacionalidad
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

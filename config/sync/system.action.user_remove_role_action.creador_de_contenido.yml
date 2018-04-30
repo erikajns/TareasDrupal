@@ -1,0 +1,14 @@
+uuid: caac5c8d-520d-4d50-a572-018bc1bcd930
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.creador_de_contenido
+  module:
+    - user
+id: user_remove_role_action.creador_de_contenido
+label: 'Remove the Creador de contenido role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: creador_de_contenido

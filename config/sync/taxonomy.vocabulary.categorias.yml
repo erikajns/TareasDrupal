@@ -1,0 +1,9 @@
+uuid: cdfb2598-df56-46d6-b33e-07e37bbda1f0
+langcode: en
+status: true
+dependencies: {  }
+name: Categorias
+vid: categorias
+description: ''
+hierarchy: 0
+weight: 0

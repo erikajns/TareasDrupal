@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Contains demo_modulo.module.
+ */
+use Drupal\Core\Form\FormStateInterface;
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function demo_modulo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the demo_modulo module.
+    case 'help.page.demo_modulo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Este medulo es mas real') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function demo_modulo_theme() {
+  return [
+    'demo_modulo' => [
+      'variables' => [
+        'title' => '',
+        'description' => '',
+      ],
+      'template' => 'demo-modulo'
+    ],
+  ];
+}
+
+function demo_modulo_form_alter(&$form, FormStateInterface $form_state, $form_id){
+   //dsm($form_id);
+   //dsm($form['account']);
+
+   if($form_id == 'user_form'){
+   $form['account']['mail']['#weight'] = -97;
+   $form['account']['name']['#weight'] = -98;
+   $form['account']['mail']['#description'] = t('A valid email address');
+   }
+}

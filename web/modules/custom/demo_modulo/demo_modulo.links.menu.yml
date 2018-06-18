@@ -1,0 +1,14 @@
+demo_modulo.configuration_form:
+  title: 'Configuracion del demo modulo'
+  route_name: demo_modulo.configuration_form
+  description: 'La descripcion del demo modulo'
+  parent: system.admin_config_system
+  weight: 99
+
+demo_modulo.subscription_form:
+  title: 'SubscriptionForm'
+  route_name: demo_modulo.subscription_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+
